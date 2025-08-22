@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    font-weight: 1000;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #35383f;
+    color: #ececf1;
+    margin: 0.2em;
+}
+
+h2{
+    font-size: 1em;
+    color: #9da3b1;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    font-weight: 1;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #35383f;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    background-image: url(../img/nebulosa.png); 
+    height: 100vh;
+    margin: 0;
+}
+.container{
+background-color: #404a65;
+height: 85vh;
+width: 70vw;
+margin: auto auto;
+padding: 0.625em;
+ border: 0.625em solid;
+  border-image: linear-gradient(to right,#371a72 , #372a9b) 1;
+  border-radius: 12px;
+}
+
+body div img {
+    width: 12.5em;   
+    height: 12.5em;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+#coin, #btn,#determinador
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+#btn button{
+    background-color:hsl(207, 68%, 46%);
+    color: hsl(36, 38%, 95%);
+    padding: 0.5em 1.5em;
+    border-radius: 10px;
+    font-weight: 500;
+    border: none;
+    font-size: 1.2em;
+}
+#btn button:hover{
+    background-color: hsl(207, 68%, 58%);
+    box-shadow: 0px 0px 8px hsl(207, 68%, 58%);
+    cursor: pointer;
+}
+#determinador{
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    color: #ececf1;
+    margin: 0.3em;
+}
